@@ -1,20 +1,44 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPU_Temp_LCD", "CPU_Temp_LCD\CPU_Temp_LCD.csproj", "{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PC 5_25 LCD PANEL", "..\..\..\Arduino\PC 5_25 LCD PANEL\PC 5_25 LCD PANEL.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCDPanelService", "LCDPanelService\LCDPanelService.csproj", "{6604A5FD-9ED1-4CBB-94F2-93A528501552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Debug|x86.Build.0 = Debug|Any CPU
 		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE080FBB-A6E2-44EF-95CB-1A5A7D9D2FE7}.Release|x86.Build.0 = Release|Any CPU
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Debug|x86.Build.0 = Debug|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Release|x86.ActiveCfg = Release|Any CPU
+		{6604A5FD-9ED1-4CBB-94F2-93A528501552}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
